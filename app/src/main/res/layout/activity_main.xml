@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/logo"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="60dp"
+      android:id="@+id/img1"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/img1"
+    android:text="Edukasi Kesehatan Mental"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="1dp"
+    android:fontFamily="@font/fontsatu"
+    android:textSize="25sp"
+    android:textColor="@color/fourColor"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/img1"
+    android:width="270dp"
+    android:height="50dp"
+    android:text="Sign Up"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="70dp"
+    android:background="@drawable/button_shape"
+    android:textColor="@color/fourColor"
+    android:fontFamily="@font/fontdua"
+    android:textSize="18dp"
+    android:id="@+id/button2"/>
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/logo"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="60dp"
+      android:id="@+id/img2"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/img2"
+      android:width="270dp"
+      android:height="50dp"
+      android:text="Login"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="150dp"
+      android:background="@drawable/button_shape"
+      android:textColor="@color/fourColor"
+      android:fontFamily="@font/fontdua"
+      android:textSize="18dp"
+      android:id="@+id/button1"/>
+
+
+
+
+</RelativeLayout>

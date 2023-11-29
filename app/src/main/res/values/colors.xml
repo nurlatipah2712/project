@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#C69FC2</color>
+    <color name="secoundryColor">#D9D9D9</color>
+    <color name="threeColor">#E7C9E4</color>
+    <color name="fourColor">#6E377C</color>
+    <color name="fiveColor">#000000</color>
+</resources>
