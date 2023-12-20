@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:layout_height="match_parent"
+    tools:context=".homectivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/atashome"/>
+
+        <ImageView
+            android:id="@+id/profilhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/profilhome" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="37dp"
+            android:fontFamily="@font/fonttujuh"
+            android:text="Hallo , Selamat Datang!"
+            android:textColor="@color/fiveColor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/fontlima"
+            android:text="Together We Thrive, Because Mental Health Matters."
+            android:textColor="@color/fiveColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/fonttujuh"
+            android:text="Masalah Kesehatan Mental"
+            android:textColor="@color/fourColor"
+            android:textSize="23sp"/>
+
+        <ImageView
+            android:id="@+id/masalah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="290dp"
+            android:src="@drawable/msatu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/depresii"/>
+        <TextView
+            android:id="@+id/textmasalah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depresi"
+            android:textColor="@color/fourColor"
+            android:fontFamily="@font/fontenam"
+            android:textSize="18dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="330dp"/>
+
+        <ImageView
+            android:id="@+id/masalah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="430dp"
+            android:src="@drawable/msatu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="440dp"
+            android:src="@drawable/gkecemasan"/>
+        <TextView
+            android:id="@+id/textmasalah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dangguan Kecemasan"
+            android:textColor="@color/fourColor"
+            android:fontFamily="@font/fontenam"
+            android:textSize="18dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="455dp"/>
+
+        <ImageView
+            android:id="@+id/masalah3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="570dp"
+            android:src="@drawable/msatu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="580dp"
+            android:src="@drawable/stresss"/>
+        <TextView
+            android:id="@+id/textmasalah3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stress"
+            android:textColor="@color/fourColor"
+            android:fontFamily="@font/fontenam"
+            android:textSize="18dp"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="615dp"/>
+
+        <ImageView
+            android:id="@+id/masalah4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="27dp"
+            android:src="@drawable/msatu"
+            android:layout_below="@id/masalah3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/bipolarr"
+            android:layout_below="@id/masalah3"/>
+
+        <TextView
+            android:id="@+id/textmasalah4"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/fontenam"
+            android:text="Gangguan Bipolar"
+            android:textColor="@color/fourColor"
+            android:textSize="18dp"
+            android:layout_below="@id/masalah3"/>
+
+        <ImageView
+            android:id="@+id/masalah5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/msatu"
+            android:layout_below="@+id/masalah4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/trauma"
+            android:layout_below="@+id/masalah4"/>
+
+        <TextView
+            android:id="@+id/textmasalah5"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/fontenam"
+            android:text="Pasca Trauma"
+            android:textColor="@color/fourColor"
+            android:textSize="18dp"
+            android:layout_below="@+id/masalah4"/>
+
+        <ImageView
+            android:id="@+id/masalah6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/msatu"
+            android:layout_below="@+id/masalah5"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/obsesif"
+            android:layout_below="@+id/masalah5"/>
+
+        <TextView
+            android:id="@+id/textmasalah6"
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="68dp"
+            android:fontFamily="@font/fontenam"
+            android:text="Obsesif-Komplusif"
+            android:textColor="@color/fourColor"
+            android:textSize="18dp"
+            android:layout_below="@+id/masalah5"/>
+
+        <ImageView
+            android:id="@+id/masalah7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/msatu"
+            android:layout_below="@+id/masalah6"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="39dp"
+            android:src="@drawable/makan"
+            android:layout_below="@+id/masalah6"/>
+
+        <TextView
+            android:id="@+id/textmasalah7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/fontenam"
+            android:text="Gannguan Makan"
+            android:textColor="@color/fourColor"
+            android:textSize="18dp"
+            android:layout_below="@+id/masalah6" />
+
+        <ImageView
+            android:id="@+id/masalah8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/msatu"
+            android:layout_below="@+id/masalah7"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/adiksi"
+            android:layout_below="@+id/masalah7"/>
+
+        <TextView
+            android:id="@+id/textmasalah8"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="66dp"
+            android:fontFamily="@font/fontenam"
+            android:text="Gangguan Adiksi"
+            android:textColor="@color/fourColor"
+            android:textSize="18dp"
+            android:layout_below="@+id/masalah7"/>
+
+    </RelativeLayout>
+</ScrollView>

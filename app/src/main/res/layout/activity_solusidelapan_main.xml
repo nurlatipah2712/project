@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:layout_height="match_parent"
+    tools:context=".solusisatuActivity">
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="85dp"
+        android:src="@drawable/atas"/>
+
+    <ImageView
+        android:id="@+id/backsolusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/keyboard_backspace"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penjelasan dan Solusi"
+        android:fontFamily="@font/fonttujuh"
+        android:textColor="@color/fourColor"
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/latarpenjelasan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="143dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="111dp"
+        android:fontFamily="@font/fontdelapan"
+        android:text="Adiksi, atau kecanduan, merujuk pada kondisi kronis di mana seseorang kehilangan kendali terhadap penggunaan zat, obat atau perilaku tertentu, meskipun mengetahui konsekuensinya yang merugikan"
+        android:textColor="@color/fourColor"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="276dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/latarsolusi" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="301dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/fontdelapan"
+        android:text="Beberapa solusi agar tidak terjadinya gangguan
+adiksi :
+\n1. Pemahaman Diri dan Body Positivity :
+      Mendorong pemahaman diri yang positif dan
+ menghormati tubuh. Hindari tekanan atau
+ pandangan negatif terkait penampilan fisik.
+\n2.Bimbingan dan Pendidikan di Sekolah:
+      Sekolah dapat memberikan program
+      pendidikan dan bimbingan yang fokus pada
+      bahaya penggunaan zat, perilaku adiktif, dan
+      strategi koping yang sehat.
+\n3. Peran Keluarga:
+      \nKeluarga memiliki peran penting dalam
+      pencegahan adiksi. Mendorong komunikasi
+      terbuka, memberikan dukungan, dan
+      menciptakan lingkungan yang aman dan stabil
+      dapat membantu melindungi anggota keluarga
+      dari risiko adiksi.
+"
+        android:textColor="@color/fourColor"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="628dp"/>
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="628dp"
+        android:autoLink="web"
+        android:fontFamily="@font/fonttiga"
+        android:text="https://medicinaudayana.ejournals.ca/index.php/medicina/article/view/692/321"
+        android:textColor="@color/sixColor"
+        android:textSize="14dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baca lebih lanjut mengenai permasalahan tentang gangguan obsesi-kompulsif :"
+        android:layout_marginLeft="58dp"
+        android:textColor="@color/fourColor"
+        android:layout_marginTop="593dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/fonttujuh"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="690dp"/>
+
+    <TextView
+        android:layout_width="321dp"
+        android:layout_height="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="690dp"
+        android:autoLink="web"
+        android:fontFamily="@font/fonttiga"
+        android:text="https://youtu.be/MhFI5ks6yOs?si=_dDBLjVmn1nI_A0D"
+        android:textColor="@color/sixColor"
+        android:textSize="12dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/fourColor"
+        android:text="simak lebih lanjut vidio meditasi berikut :"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="668dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/fonttujuh"/>
+</RelativeLayout>

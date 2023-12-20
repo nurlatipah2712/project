@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:layout_height="match_parent"
+    tools:context=".solusisatuActivity">
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="85dp"
+        android:src="@drawable/atas"/>
+
+    <ImageView
+        android:id="@+id/backsolusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/keyboard_backspace"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penjelasan dan Solusi"
+        android:fontFamily="@font/fonttujuh"
+        android:textColor="@color/fourColor"
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/latarpenjelasan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/fontdelapan"
+        android:text="Gangguan pasca trauma (Post-Traumatic Stress Disorder atau PTSD) adalah gangguan mental yang dapat terjadi setelah seseorang mengalami peristiwa traumatik atau mengancam jiwa. Peristiwa tersebut bisa melibatkan kekerasan fisik, ancaman kematian, kecelakaan serius, atau pengalaman traumatis lainnya."
+        android:textColor="@color/fourColor"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="276dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/latarsolusi" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="323dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/fontdelapan"
+        android:text="Beberapa solusi agar tidak terjadinya gangguan
+pasca trauma :
+
+\n1. Promosi Kesehatan Mental :
+      \nMenjaga kesehatan mental secara umum
+      melalui kebiasaan hidup yang sehat, seperti
+ olahraga teratur, tidur yang cukup, dan
+ manajemen stres, dapat membantu
+      mengurangi risiko PTSD.
+\n2. Intervensi Dini :
+     \nJika seseorang telah mengalami peristiwa
+     traumatis, memberikan intervensi dini,
+     seperti terapi trauma berfokus pada kejadian
+    tersebut, dapat membantu mencegah
+    perkembangan PTSD.
+\n3. Keamanan dan pencegahan kekerasan :
+       menciptakan lingkungan yg aman dapat
+       mencegah traumatis terkait kekerasan.
+"
+        android:textColor="@color/fourColor"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="628dp"/>
+
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:fontFamily="@font/fonttiga"
+        android:autoLink="web"
+        android:textColor="@color/sixColor"
+        android:text="https://core.ac.uk/reader/234030580"
+        android:textSize="14dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baca lebih lanjut mengenai permasalahan tentang gangguan obsesi-kompulsif :"
+        android:layout_marginLeft="58dp"
+        android:textColor="@color/fourColor"
+        android:layout_marginTop="593dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/fonttujuh"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="690dp"/>
+
+    <TextView
+        android:layout_width="321dp"
+        android:layout_height="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="687dp"
+        android:autoLink="web"
+        android:fontFamily="@font/fonttiga"
+        android:text="https://youtu.be/3LqPhHlpwgs?si=bdIOoblWy0_julk5"
+        android:textColor="@color/sixColor"
+        android:textSize="12dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/fourColor"
+        android:text="simak lebih lanjut vidio meditasi berikut :"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="660dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/fonttujuh"/>
+</RelativeLayout>

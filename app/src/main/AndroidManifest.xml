@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".solusidelapanMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusitujuhMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusienamMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusilimaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusiempatMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusitigaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusiduaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profilpertamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".solusisatuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaasalahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homectivity"
+            android:exported="false" />
         <activity
             android:name=".profilesatuActivity"
             android:exported="false" />
@@ -20,15 +53,13 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"
-             />
+            android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="false"
-             />
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

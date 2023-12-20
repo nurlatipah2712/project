@@ -5,4 +5,5 @@
     <color name="threeColor">#E7C9E4</color>
     <color name="fourColor">#6E377C</color>
     <color name="fiveColor">#000000</color>
+    <color name="sixColor">#0000ff</color>
 </resources>
